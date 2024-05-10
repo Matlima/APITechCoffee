@@ -3,6 +3,7 @@
     public class Cliente
     {
         public int id { get; set; }
+        public int id_user_created { get; set; }
         public string nome_fantasia { get; set; }
         public string razao_social { get; set; }
         public string cpf { get; set; }
