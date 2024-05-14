@@ -9,7 +9,7 @@
         public string cpf { get; set; }
         public string cnpj { get; set;  }
         public string inscricao_estadual { get; set; }
-        public string inscricao_municial { get; set; }
+        public string inscricao_municipal { get; set; }
         public bool iss_retido { get; set; }
         public string telefone { get; set; }
         public string celular { get; set; }
