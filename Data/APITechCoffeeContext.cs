@@ -21,6 +21,8 @@ namespace APITechCoffee.Data
         public DbSet<ItemProjetoServico>? ItemProjetoServico { get; set; }
         public DbSet<Atividade>? Atividade { get; set; }
         public DbSet<Cliente>? Cliente { get; set; }
+        public DbSet<APITechCoffee.Models.CRM.Plano>? Plano { get; set; }
+        
         
 
        
