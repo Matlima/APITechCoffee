@@ -1,4 +1,4 @@
-﻿namespace APITechCoffee.Model
+﻿namespace APITechCoffee.Models.Geral
 {
     public class Cliente
     {
@@ -7,7 +7,7 @@
         public string nome_fantasia { get; set; }
         public string razao_social { get; set; }
         public string cpf { get; set; }
-        public string cnpj { get; set;  }
+        public string cnpj { get; set; }
         public string inscricao_estadual { get; set; }
         public string inscricao_municipal { get; set; }
         public bool iss_retido { get; set; }

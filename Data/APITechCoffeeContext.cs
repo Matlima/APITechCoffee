@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using APITechCoffee.Models;
-using APITechCoffee.Model;
+using APITechCoffee.Models.CRM;
+using APITechCoffee.Models.Jobs;
+using APITechCoffee.Models.Geral;
 
 namespace APITechCoffee.Data
 {
@@ -14,12 +15,12 @@ namespace APITechCoffee.Data
             : base(options)
         {
         }
-        public DbSet<APITechCoffee.Models.Usuario>? Usuario { get; set; }
-        public DbSet<APITechCoffee.Models.Projeto>? Projeto { get; set; }
-        public DbSet<APITechCoffee.Models.Servico>? Servico { get; set; }
-        public DbSet<APITechCoffee.Models.ItemProjetoServico>? ItemProjetoServico { get; set; }
-        public DbSet<APITechCoffee.Models.Atividade>? Atividade { get; set; }
-        public DbSet<APITechCoffee.Model.Cliente>? Cliente { get; set; }
+        public DbSet<Usuario>? Usuario { get; set; }
+        public DbSet<Projeto>? Projeto { get; set; }
+        public DbSet<Servico>? Servico { get; set; }
+        public DbSet<ItemProjetoServico>? ItemProjetoServico { get; set; }
+        public DbSet<Atividade>? Atividade { get; set; }
+        public DbSet<Cliente>? Cliente { get; set; }
         
 
        

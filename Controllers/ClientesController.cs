@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using APITechCoffee.Data;
-using APITechCoffee.Model;
+using APITechCoffee.Models.Geral;
 
 namespace APITechCoffee.Controllers
 {

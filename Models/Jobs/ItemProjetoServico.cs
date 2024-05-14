@@ -1,4 +1,4 @@
-﻿namespace APITechCoffee.Models
+﻿namespace APITechCoffee.Models.Jobs
 {
     public class ItemProjetoServico
     {

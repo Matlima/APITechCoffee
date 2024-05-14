@@ -1,4 +1,4 @@
-﻿namespace APITechCoffee.Models
+﻿namespace APITechCoffee.Models.CRM
 {
     public class Atividade
     {
